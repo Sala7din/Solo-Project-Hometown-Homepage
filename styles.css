@@ -1,0 +1,289 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+
+Palette: Wappen Landkreis München https://de.wikipedia.org/wiki/Landkreis_M%C3%BCnchen#/media/Datei:DEU_Landkreis_M%C3%BCnchen_COA.svg
+
+--rich-black-fogra-39: #050505ff;
+--golden-yellow: #FEDD00ff;
+--white: #FFFFFFff;
+--celadon-blue: #0278ABff;
+--charcoal: #1A3B4Bff;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+
+body {
+ 
+    display:flex;
+    flex-direction: column;
+    
+    margin: 0;
+    text-align: center;
+    font-family: 'Germania One', cursive;  
+    
+}
+
+.hero-section {
+
+    background-image: url("images/Thalkirchen-Flaucher.jpg");
+    background-size: cover;
+    height: 343px;
+    
+}
+
+#visit-thalkirchen {
+    
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    
+    width: 201px;
+    height: 34px;
+    margin: 122px auto 0px auto;
+    padding: 3px 12px 5px 12px;
+
+    font-size: 12px;
+    color: #FEDD00ff;
+    
+    background: #050505ff; /* original background: #1D3557;  */
+    border-radius: 10px;  
+     
+}
+
+#leisure-paradise {
+    
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    
+    width: 355px;
+    height: 39px;
+    margin: 11px auto 0 auto; 
+    padding: 5px 29px 8px 28px;
+       
+    font-size: 11px;
+    color: black;
+    
+    background: #FEDD00ff; /* original background: #457B9D; */
+    border-radius: 10px;
+    
+}
+
+.activities-section {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 343px;
+    background: #0278ABff/* original background: #F1FAEE;    */  
+     
+}
+
+.activities-img {
+    
+    width: 100px;   
+    height: 100px;
+    border-radius: 50%;  
+     
+}  
+
+.activities-title {
+     
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFFff; /* original color: #1D3557;  */
+    
+}
+
+.activities-description {
+    
+    width: 198px;
+    height: 55px;
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFFff; /* original color: #1D3557;  */
+    
+}
+
+.restaurant-section {
+    
+    display: flex;
+    flex-direction: column;
+    
+    align-content: center;
+    
+    height: 343px;
+    background: #050505ff;
+       
+}
+
+#suggestion-title {
+    
+    font-weight: 400;
+    font-size: 18px;
+    
+    text-align: center;
+    color: #FFFFFFff; /* original color: #1D3557;  */
+    
+}
+
+#suggestion-text {
+    
+    font-weight: 400;
+    font-size: 18px;
+    color: #FEDD00ff;
+    
+}
+
+.restaurants {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+       
+}
+
+#AlterWirt {
+    
+    width: 100px;
+    height: 100px;
+    
+    border: 5px solid #FEDD00ff;
+    border-radius: 10%;
+    
+    background-image: url("images/Restaurant1.jpg");
+    background-size: cover;
+    
+}
+
+#AlterWirt:hover {
+    background-image: url("images/location.png");
+    background-size: 100% 100%, cover;
+    
+}
+
+#Mangostin {
+    
+    width: 100px;
+    height: 100px;
+    
+    border: 5px solid #FEDD00ff;
+    border-radius: 10%;
+    
+    background-image: url("images/Restaurant2.jpg");
+    background-size: cover;
+}
+
+#Mangostin:hover {
+    
+    background-image: url("images/location.png");
+    background-size: 100% 100%, cover;
+    
+}
+
+#Gelatobi {
+   
+    width: 100px;
+    height: 100px;
+    
+    border: 5px solid #FEDD00ff;
+    border-radius: 10%;
+    
+    background-image: url("images/Restaurant3.jpg");
+    background-size: cover;
+    
+}
+
+#Gelatobi:hover {
+    
+    background-image: url("images/location.png");
+    background-size: 100% 100%, cover;
+    
+}
+
+
+.restaurant-titles {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    font-weight: 400;
+    font-size: 19px;
+    
+    text-align: center;
+    color: #FFFFFFff;
+    
+}
+
+.guide-section {
+    
+    display: flex;  
+    justify-content:center;
+    align-items: center;
+
+    height: 450px;
+
+}
+
+.business-card {
+    
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+    width: 400px;
+    height: 294px;
+    
+    background: #0278ABff;/* original background: #A8DADC; */
+    box-shadow: 0px 6px 0px black;  
+    border-radius: 10px;
+    
+}
+
+#guide-img {
+      
+    width: 180px;
+    height: 248.67px;
+    border-radius: 10px;
+    
+}
+
+#guide {
+    
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFFff; /* original color: #1D3557; */
+}
+
+#guide-experience {
+    
+    width: 140px;
+
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFFff; /* original color: #1D3557; */
+    
+}
+
+#guide-signature {
+    
+    font-weight: 400;
+    font-size: 16px;
+    
+    color: #FFFFFFff; /* original color: #1D3557; */
+    
+}
